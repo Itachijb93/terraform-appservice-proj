@@ -1,0 +1,28 @@
+# ===========================
+# Terraform local state files
+# ===========================
+reactapp/terraform.tfstate
+reactapp/terraform.tfstate.backup
+reactapp/*.tfstate
+reactapp/*.tfstate.backup
+
+# ===========================
+# Terraform cache directory
+# ===========================
+reactapp/.terraform/
+
+# ===========================
+# Lock file (not needed in repo)
+# ===========================
+reactapp/.terraform.lock.hcl
+
+# ===========================
+# Sensitive variable files
+# ===========================
+reactapp/terraform.tfvars
+reactapp/*.tfvars
+
+# ===========================
+# Deployment ZIP files folder
+# ===========================
+reactapp/files/
