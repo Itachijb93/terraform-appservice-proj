@@ -1,27 +1,23 @@
 variable "subscription_id" {
+  type        = string
   description = "Azure Subscription ID"
-  type        = string
-}
-
-variable "prefix" {
-  description = "Prefix for all Azure resources"
-  type        = string
 }
 
 variable "location" {
-  description = "Azure region"
   type        = string
   default     = "East US"
 }
 
-variable "prod_zip_path" {
-  description = "Path to production ZIP file"
+variable "prefix" {
   type        = string
+}
+
+variable "prod_zip_path" {
+  type        = string
+  description = "Path to production ZIP"
 }
 
 variable "canary_zip_path" {
-  description = "Path to canary ZIP file"
   type        = string
+  description = "Path to canary ZIP"
 }
-
-
